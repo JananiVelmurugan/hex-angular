@@ -1,0 +1,14 @@
+<h1>Employee Details</h1>
+
+ID: {{employee.id}}<br>
+Name: {{employee.name}}<br>
+Salary: {{employee.salary | currency:'INR':'symbol'}} <br>
+Permanent: <span *ngIf="employee.permanent">Yes</span>
+  <span *ngIf="!employee.permanent">No</span> <br>
+Department Id:{{employee.department.id}}<br>
+Department Name:{{employee.department.name}}<br>
+Skills: 
+<div *ngFor="let skill of employee.skills">
+  <span>{{skill.id}}</span> &nbsp;
+  <span>{{skill.name}}</span>
+</div>
