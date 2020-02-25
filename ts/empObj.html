@@ -1,0 +1,35 @@
+<html>
+	<body>
+		<script>
+			emp = `{
+							"firstName": "John", 
+							"lastName": "Stoke",
+							"department":
+								{
+									"id":1,
+									"name":"training"
+								},
+							"skills":
+							[
+								{
+									"id":1,
+									"value":"HTML"
+								},
+								{
+									"id":2,
+									"value":"CSS"}
+							]
+						}`;//json text
+			console.log(emp);
+			empObj = JSON.parse(emp);//js obj
+			console.log(empObj);
+			console.log(empObj.firstName);
+			console.log(empObj.lastName);
+			console.log(empObj.department.id);
+			console.log(empObj.department.name);
+			for (i = 0; i < empObj.skills.length; i++) {
+				console.log("skill " + [i] + ": " + empObj.skills[i].id + ", " + empObj.skills[i].value);
+      }
+		</script>
+	</body>
+</html>

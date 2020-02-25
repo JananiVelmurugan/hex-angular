@@ -1,0 +1,53 @@
+Typescript is a superset of Javascript
+Typescript - additional features (Angular 2+)
+Javascript 
+ - before Angular 2
+ - browsers only understand
+
+.java -> .class => compilation
+.tsc -> .js => transpilation 
+
+angular commands
+================
+ng s(serve) => to build the application
+Angular - SPA Single Page Applications
+
+ng new first-app => to create new application
+ECMA - standard
+ES - ECMA Script
+
+npm install -g typescript => to install ts
+tsc --version => to get the installed ts version
+tsc => typescript compiler
+tsc hello.ts => to compile ts
+node hello.js => to run js 
+
+datatype in ts
+===============
+number
+string
+any
+boolean
+enum 
+[]
+
+type assertion - (<string>word) ,(word as string)
+
+arrow function
+==============
+=>
+
+class,interfaces,functions,properties
+access specifiers
+=================
+public(default)
+private
+protected
+
+
+
+
+
+
+
+
