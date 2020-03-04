@@ -22,6 +22,10 @@ tsc => typescript compiler
 tsc hello.ts => to compile ts
 node hello.js => to run js 
 
+In windows, tsc hello.ts | tsc hello.ts 
+
+In unix, tsc arrow.ts & node arrow.js
+
 datatype in ts
 ===============
 number
